@@ -1,0 +1,110 @@
+@font-face{
+    font-family: 'Coluna';
+    src: url(archivos/Coluna_Rounded.ttf) format('truetype');
+    font-weight: bold;
+    font-style: bold;
+}
+
+.fondo{
+    background-image: url(archivos/fondo.png);
+    background-position: center; /*lo centra*/
+    background-attachment: fixed; /*para que no se repita*/
+    background-size: cover; /*para que cubra todo*/
+}
+
+
+/*INICIO HEADER*/
+
+.iconos{display: flex; align-items: center; justify-content: center;}
+
+.icono_1{margin-right: 20px;}
+
+.icono_2{margin-right: 80px;}
+
+.icono_3{margin: 0 13px 0 13px;}
+
+.icono_4{margin-left: 80px;}
+
+.icono_5{margin-left: 20px;}
+
+/*FIN HEADER*/
+
+/*INICIO NAV*/
+
+nav ul{margin: 0; padding: 0; list-style: none; display:flex;}
+
+nav ul li{flex-grow: 1;}
+
+.activo{background-color: #1da1ff; color: white; font-size: 30px; font-family: coluna; margin: 5px; display: flex; justify-content: center; align-items: center;  border-radius: 5px;}
+
+.rectangulo_1{
+    background-color: #2F90D7;
+    color: white;
+    font-size: 30px;
+    font-family: coluna;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5px;
+}
+
+.rectangulo_2{
+    background-color: #2F90D7;
+    width: 2px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    font-family: coluna;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; 
+}
+
+.rectangulo_3{
+    background-color: #2F90D7;
+    width: 20px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    font-family: coluna;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5px;
+}
+
+.rectangulo_4{
+    background-color: #2F90D7;
+    width: 20px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    font-family: coluna;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5px;
+}
+
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a:hover{
+    background-color: rgb(0,0,0,0.3); /*el "0.3" le baja la intensidad al color que pusite*/
+}
+
+
+
+
+/*FIN NAV*/
