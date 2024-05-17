@@ -12,6 +12,12 @@
     background-size: cover; /*para que cubra todo*/
 }
 
+.holder{
+    max-width: 500px;
+    max-height: 900px;
+    margin: 0 auto;
+}
+
 
 /*INICIO HEADER*/
 
@@ -29,82 +35,62 @@
 
 /*FIN HEADER*/
 
+
+
 /*INICIO NAV*/
 
 nav ul{margin: 0; padding: 0; list-style: none; display:flex;}
 
 nav ul li{flex-grow: 1;}
 
-.activo{background-color: #1da1ff; color: white; font-size: 30px; font-family: coluna; margin: 5px; display: flex; justify-content: center; align-items: center;  border-radius: 5px;}
+.activo{background-color: #1da1ff; font-size: 30px; font-family: coluna;  padding-top: 5px; margin: 5px; display: flex; justify-content: center; align-items: center;  border-radius: 5px;}
 
-.rectangulo_1{
-    background-color: #2F90D7;
-    color: white;
-    font-size: 30px;
-    font-family: coluna;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    border-radius: 5px;
-}
+.rectangulo_1, .rectangulo_2, .rectangulo_3, .rectangulo_4{background-color: #2F90D7;font-size: 30px; font-family: coluna; padding-top: 5px; margin: 5px; display: flex; justify-content: center; align-items: center; border-radius: 5px;}
 
-.rectangulo_2{
-    background-color: #2F90D7;
-    width: 2px;
-    height: 40px;
-    color: white;
-    font-size: 30px;
-    font-family: coluna;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px; 
-}
+nav ul li a{color: white; text-decoration: none;}
 
-.rectangulo_3{
-    background-color: #2F90D7;
-    width: 20px;
-    height: 40px;
-    color: white;
-    font-size: 30px;
-    font-family: coluna;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    border-radius: 5px;
-}
-
-.rectangulo_4{
-    background-color: #2F90D7;
-    width: 20px;
-    height: 40px;
-    color: white;
-    font-size: 30px;
-    font-family: coluna;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    border-radius: 5px;
-}
-
-
-
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li a:hover{
-    background-color: rgb(0,0,0,0.3); /*el "0.3" le baja la intensidad al color que pusite*/
-}
-
-
-
+nav ul li:hover{background-color: #1da1ff; cursor: pointer;}
 
 /*FIN NAV*/
+
+
+
+/*INICIO FOOTER*/
+
+footer{display: flex; justify-content: center; align-items: center; margin-top: 610px;}
+
+.contenedor_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f91d7a5;
+    width: 450px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+.contenedor_footer p, .contenedor_footer p a{
+    color: white;
+    font-size: 15px;
+    font-family: coluna;
+    max-width: 250px;
+    text-align: center;
+}
+
+.redes{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-family: coluna;
+}
+
+
+
+
+
+/*FIN FOOTER*/
