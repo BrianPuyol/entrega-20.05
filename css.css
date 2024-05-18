@@ -45,7 +45,7 @@ nav ul li{flex-grow: 1;}
 
 .activo{background-color: #1da1ff; font-size: 30px; font-family: coluna;  padding-top: 5px; margin: 5px; display: flex; justify-content: center; align-items: center;  border-radius: 5px;}
 
-.rectangulo_1, .rectangulo_2, .rectangulo_3, .rectangulo_4{background-color: #2F90D7;font-size: 30px; font-family: coluna; padding-top: 5px; margin: 5px; display: flex; justify-content: center; align-items: center; border-radius: 5px;}
+.rectangulo_1, .rectangulo_2, .rectangulo_3, .rectangulo_4{background-color: #2f91d7a5;font-size: 30px; font-family: coluna; padding-top: 5px; margin: 5px; display: flex; justify-content: center; align-items: center; border-radius: 5px;}
 
 nav ul li a{color: white; text-decoration: none;}
 
@@ -66,27 +66,33 @@ footer{display: flex; justify-content: center; align-items: center; margin-top: 
     justify-content: center;
     background-color: #2f91d7a5;
     width: 450px;
-    height: 90px;
+    padding: 10px;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .contenedor_footer p, .contenedor_footer p a{
     color: white;
     font-size: 15px;
     font-family: coluna;
-    max-width: 250px;
     text-align: center;
+    margin: 5px 0; /*IMPORTANTE*/
+    text-decoration: none;
 }
 
 .redes{
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: white;
+    gap: 10px;
+}
+
+.redes a{
     font-size: 15px;
     font-family: coluna;
+    color: white;
+    text-decoration: none;
 }
 
 
