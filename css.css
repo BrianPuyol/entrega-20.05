@@ -124,7 +124,7 @@ nav ul li:hover{background-color: #1da1ff; cursor: pointer;}
 
 .titulo_home a{text-decoration: none;}
 
-.ofertas_1{display: flex;justify-content: center;align-items: center;}
+.ofertas_1{display: flex; justify-content: center; align-items: center;}
 
 .ofertas_2 img{margin: 18px 0 0 120PX;}
 
